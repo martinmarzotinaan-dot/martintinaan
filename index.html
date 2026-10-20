@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The personal portfolio of Tinaan, Martin, a BSIT student.">
+    <title>Tinaan, Martin | Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header" id="top">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="logo" href="#home">TM<span>.</span></a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a class="nav-link active" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode" title="Toggle dark/light mode">☀</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="status-dot"></span> BSIT STUDENT PORTFOLIO</p>
+                    <h1>Hello, I'm <span class="gradient-text">Tinaan, Martin</span></h1>
+                    <h2>Future IT Professional</h2>
+                    <p class="hero-description">
+                        Welcome to my personal portfolio! I am a Bachelor of Science in Information Technology
+                        student who enjoys learning about computers, programming, and creating useful digital projects.
+                    </p>
+                    <div class="hero-buttons">
+                        <a class="button primary-button" href="#projects">Explore My Projects <span aria-hidden="true">↗</span></a>
+                        <a class="button secondary-button" href="#contact">Contact Me</a>
+                    </div>
+                    <p class="student-tag">ITE 1 · <strong>BSIT 1209</strong></p>
+                </div>
+                <div class="hero-visual">
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+                    <div class="profile-card">
+                        <div class="profile-placeholder">
+    <img src="images/profile.jpg"
+         alt="My Profile Picture"
+         class="profile-picture">
+</div>
+                        <div class="profile-card-info">
+                            <span class="mini-label">STUDENT DEVELOPER</span>
+                            <h3>Tinaan, Martin</h3>
+                            <p>Learning. Building. Improving.</p>
+                        </div>
+                        <div class="floating-chip chip-code">&lt;/&gt; Code</div>
+                        <div class="floating-chip chip-idea">✦ Creative ideas</div>
+                    </div>
+                </div>
+            </div>
+            <a class="scroll-hint" href="#about" aria-label="Scroll to About section"><span></span> Scroll to explore</a>
+        </section>
+
+        <section class="section section-alt" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span class="gradient-text">Me</span></h2>
+                    <p>My name is Martin Tinaan and From Q.C I'm studying IT because i want to learn more about code and improve my coding skills.</p>
+                </div>
+                <div class="about-grid">
+                    <article class="about-card glass-card">
+                        <div class="card-icon">⌘</div>
+                        <h3>Who I Am</h3>
+                        <p>I am an Martin Tinaan and I.T Students in Best Link College of The Philippines and studying to build my knowledge in programming and web development. I believe that every activity is an opportunity to practice, learn, and become better and also being advance learning in html for the future I.T.</p>
+                        <button class="text-button" id="readMoreBtn" type="button" aria-expanded="false">Read more <span>＋</span></button>
+                        <div class="more-info" id="moreInfo" hidden>
+                            <p>My goal is to improve my technical skills, work well with others, and create projects that solve simple, real-world problems. I am still learning, and I am excited to keep growing in the technology field.</p>
+                        </div>
+                    </article>
+                    <article class="about-card glass-card">
+                        <div class="card-icon">▤</div>
+                        <h3>Education</h3>
+                        <p class="highlight-line">Bachelor of Science in Information Technology</p>
+                        <p>Section: BSIT 21009</p>
+                        <p class="muted">Currently studying programming, computer fundamentals, and website development.</p>
+                    </article>
+                    <article class="about-card glass-card">
+                        <div class="card-icon">✧</div>
+                        <h3>Interests</h3>
+                        <ul class="interest-list">
+                            <li>Web design and development</li>
+                            <li>Programming and problem-solving</li>
+                            <li>Technology and computers</li>
+                            <li>Learning new digital skills</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I'M LEARNING is to create a hmtl and style css and connect it and of course i can design a background and website i want to do</p>
+                    <h2>My <span class="gradient-text">Skills</span></h2>
+                    <p>Skills I am practicing and developing as an IT student.</p>
+                </div>
+                <div class="skills-layout">
+                    <div class="skills-panel glass-card">
+                        <h3>Technical Skills</h3>
+                        <p class="muted">Beginner-level skills — progress improves with practice.</p>
+                        <div class="skill-item">
+                            <div class="skill-label"><span>HTML</span><span>Learning</span></div>
+                            <div class="skill-track"><span style="width: 72%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-label"><span>CSS</span><span>Learning</span></div>
+                            <div class="skill-track"><span style="width: 62%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-label"><span>Java</span><span>Learning</span></div>
+                            <div class="skill-track"><span style="width: 48%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-label"><span>C++</span><span>Learning</span></div>
+                            <div class="skill-track"><span style="width: 45%"></span></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-label"><span>JavaScript</span><span>Learning</span></div>
+                            <div class="skill-track"><span style="width: 38%"></span></div>
+                        </div>
+                    </div>
+                    <div class="skills-panel glass-card">
+                        <h3>Personal Skills</h3>
+                        <p class="muted">My habits to learn more about html is to practices code and use what i learned.</p>
+                        <div class="personal-skill"><span class="skill-symbol">✓</span><div><strong>Willingness to learn</strong><p>Open to feedback and new ideas.</p></div></div>
+                        <div class="personal-skill"><span class="skill-symbol">◇</span><div><strong>Problem-solving</strong><p>Trying different ways to understand a task.</p></div></div>
+                        <div class="personal-skill"><span class="skill-symbol">◎</span><div><strong>Teamwork</strong><p>Respecting ideas and helping classmates.</p></div></div>
+                        <div class="personal-skill"><span class="skill-symbol">↗</span><div><strong>Creativity</strong><p>Exploring ways to improve a project.</p></div></div>
+                    </div>
+                </div>
+                <p class="small-note">Note: The skill indicators are illustrative. Update them to match your actual experience.</p>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY SCHOOL WORK</p>
+                    <h2>Featured <span class="gradient-text">Projects</span></h2>
+                    <p>Sample project cards for school activities. Replace these with your actual prelim-to-final activities.</p>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card glass-card">
+                        <div class="project-art art-one"><span class="art-symbol">⌨</span><span class="art-label">01 / WEB</span></div>
+                        <div class="project-content">
+                            <div class="project-tags"><span>HTML</span><span>CSS</span></div>
+                            <h3>My First Webpage</h3>
+                            <p>A beginner webpage made to practice HTML structure, headings, links, and CSS styling.</p>
+                            <a class="project-link sample-link" href="#contact" data-project="My First Webpage">View project details <span>↗</span></a>
+                        </div>
+                    </article>
+                    <article class="project-card glass-card">
+                        <div class="project-art art-two"><span class="art-symbol">{ }</span><span class="art-label">02 / CODE</span></div>
+                        <div class="project-content">
+                            <div class="project-tags"><span>Java</span><span>Logic</span></div>
+                            <h3>Basic Programming Activity</h3>
+                            <p>A simple program that practices variables, user input, calculations, and output.</p>
+                            <a class="project-link sample-link" href="#contact" data-project="Basic Programming Activity">View project details <span>↗</span></a>
+                        </div>
+                    </article>
+                    <article class="project-card glass-card">
+                        <div class="project-art art-three"><span class="art-symbol">▦</span><span class="art-label">03 / DESIGN</span></div>
+                        <div class="project-content">
+                            <div class="project-tags"><span>Layout</span><span>Responsive</span></div>
+                            <h3>Responsive Layout Practice</h3>
+                            <p>A layout exercise focused on spacing, colors, flexible sections, and mobile-friendly design.</p>
+                            <a class="project-link sample-link" href="#contact" data-project="Responsive Layout Practice">View project details <span>↗</span></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="project-notice"><span>ⓘ</span><p>These are sample entries, not actual submitted activities. Replace the titles, descriptions, and links with your own work before submitting.</p></div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Contact <span class="gradient-text">Me</span></h2>
+                    <p>Have a question or want to talk about a project? Send a message below.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-copy glass-card">
+                        <h3>Get in touch</h3>
+                        <p class="muted">You can add your real contact details here before publishing your portfolio.</p>
+                        <div class="contact-detail"><span class="contact-icon">✉️</span><div><span class="mini-label">E-mail</span><p><a href="mailto:your.email@example.com">martinmarzotinaan@gmail.com</a></p></div></div>
+                        <div class="contact-detail"><span class="contact-icon">☎</span><div><span class="mini-label">09097020591</span><p>Add your phone number</p></div></div>
+                        <div class="contact-detail"><span class="contact-icon">⌖</span><div><span class="mini-label">COURSE / SECTION</span><p>BSIT · BSIT 1209</p></div></div>
+                    </div>
+                    <form class="contact-form glass-card" id="contactForm">
+                        <label for="visitorName">Your name</label>
+                        <input id="visitorName" name="visitorName" type="text" placeholder="Enter your name" required>
+                        <label for="visitorEmail">Your email</label>
+                        <input id="visitorEmail" name="visitorEmail" type="email" placeholder="name@example.com" required>
+                        <label for="visitorMessage">Message</label>
+                        <textarea id="visitorMessage" name="visitorMessage" rows="4" placeholder="Write your message..." required></textarea>
+                        <button class="button primary-button form-submit" type="submit">Send Message <span>↗</span></button>
+                        <p class="form-note">Demo form: it shows a confirmation but does not send or store messages.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="logo" href="#home">TM<span>.</span></a>
+            <p>© <span id="year"></span> Tinaan, Martin. Created for ITE 1.</p>
+            <a class="back-top" href="#top">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
